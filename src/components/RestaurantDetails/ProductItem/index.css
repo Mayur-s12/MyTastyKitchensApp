@@ -1,0 +1,315 @@
+@media screen and (max-width: 820px) {
+  .back-image {
+    background-image: url('https://i.postimg.cc/YC1gZxX4/Rectangle-1458.png');
+    height: 198px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+  }
+
+  .detail-img-size {
+    height: 221px;
+    width: 221px;
+    border-radius: 50%;
+    margin-left: -68px;
+    margin-top: -54px;
+    size: cover;
+  }
+
+  .back-icon {
+    position: absolute;
+    width: 45.82px;
+    height: 22.74px;
+    top: 5.2px;
+    left: 222.95px;
+    opacity: 0.3px;
+    rotate: -158.76 deg;
+  }
+
+  .back-icon2 {
+    position: absolute;
+    width: 99.1px;
+    height: 47.16px;
+    top: 120.41px;
+    left: 120.88px;
+    opacity: 0.2px;
+    rotate: 140.32 deg;
+  }
+
+  .back-icon3 {
+    position: absolute;
+    width: 82.39px;
+    height: 60.55px;
+    top: 124.12px;
+    left: 296px;
+    opacity: 0.1px;
+    rotate: 20.24 deg;
+  }
+
+  .back-icon4 {
+    position: absolute;
+    width: 17.02px;
+    height: 29.48px;
+    top: 11px;
+    left: 336px;
+    opacity: 0.1px;
+  }
+  .back-iconpotato {
+    display: none;
+  }
+  .back-iconVector {
+    display: none;
+  }
+
+  .back-iconBrinjal {
+    display: none;
+  }
+  .back-icon5 {
+    display: none;
+  }
+
+  .details-heading {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .cuisine-text {
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    margin-top: 7px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: Roboto;
+  }
+
+  .text-content-div {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 250px;
+  }
+
+  .flex-costforTwo {
+    display: flex;
+    color: white;
+  }
+
+  .line-cost-div {
+    padding-left: 10px;
+    border-left: 2px solid white;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    width: 120px;
+  }
+
+  .cost-text {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .all-text {
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .ratings-div {
+    padding-right: 5px;
+    width: 90px;
+    margin-top: 10px;
+  }
+
+  .cost-para {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #e2e8f0;
+  }
+
+  .star-space {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  .restaurants-foods {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17%;
+  }
+  .back-image {
+    background-image: url('https://i.postimg.cc/YC1gZxX4/Rectangle-1458.png');
+    width: 100vw;
+    height: 198px;
+    display: flex;
+    align-items: center;
+    padding-left: 18%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+  }
+
+  .detail-img-size {
+    height: 155px;
+    width: 301px;
+    border-radius: 5%;
+  }
+
+  .back-icon {
+    width: 89.53px;
+    height: 44.44px;
+    top: 6.42px;
+    left: 1009.55px;
+    opacity: 0.2px;
+    rotate: -158.76 deg;
+    position: absolute;
+  }
+
+  .back-icon2 {
+    position: absolute;
+    width: 138.33px;
+    height: 70.64px;
+    top: 120.51px;
+    left: 844.41px;
+    opacity: 0.1px;
+    rotate: 165.2 deg;
+  }
+
+  .back-icon3 {
+    width: 205.67px;
+    height: 119.19px;
+    top: 68.14px;
+    left: 1154px;
+    opacity: 0.1px;
+    rotate: 20.24 deg;
+    position: absolute;
+  }
+
+  .back-icon4 {
+    width: 27.4px;
+    height: 38.48px;
+    top: 30px;
+    left: 1375px;
+    opacity: 0.1px;
+    position: absolute;
+  }
+
+  .details-heading {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .cuisine-text {
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    margin-top: 7px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: Roboto;
+  }
+
+  .text-content-div {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .flex-costforTwo {
+    display: flex;
+    color: white;
+  }
+
+  .line-cost-div {
+    padding-left: 10px;
+    border-left: 2px solid white;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    width: 120px;
+  }
+  .back-iconVector {
+    position: absolute;
+    width: 76.25px;
+    height: 76.25px;
+    top: 13px;
+    left: 525px;
+    opacity: 0.2px;
+  }
+
+  .back-iconBrinjal {
+    position: absolute;
+    width: 190.61px;
+    height: 94.61px;
+    top: 120px;
+    left: 170.47px;
+    opacity: 0.2px;
+    rotate: -60.66 deg;
+  }
+  .back-icon5 {
+    width: 27.4px;
+    height: 24.48px;
+    top: 80px;
+    left: 35px;
+    opacity: 0.1px;
+    position: absolute;
+  }
+
+  .back-iconpotato {
+    position: absolute;
+    width: 27.4px;
+    height: 24.48px;
+    top: 20px;
+    left: 155px;
+    opacity: 0.1px;
+    position: absolute;
+  }
+
+  .cost-text {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .all-text {
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .ratings-div {
+    padding-right: 5px;
+    width: 90px;
+    margin-top: 10px;
+  }
+
+  .cost-para {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #e2e8f0;
+  }
+
+  .star-space {
+    padding-right: 10px;
+  }
+}

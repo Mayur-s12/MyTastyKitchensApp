@@ -1,0 +1,116 @@
+@media screen and (max-width: 820px) {
+  .flex-header {
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  .menu-desktop {
+    display: none;
+  }
+  .ham-style {
+    font-size: 24px;
+    color: #183b56;
+  }
+  .logo-head-style {
+    color: #f7931e;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 10px;
+  }
+  .home-logo-cont {
+    display: flex;
+    align-items: center;
+  }
+  .home-logo {
+    height: 40px;
+  }
+
+  .popup-content-ham {
+    height: 100px;
+    top: 10px;
+  }
+  .disp-menu {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+  }
+  .btn-close {
+    border: none;
+    background: none;
+    color: #334155;
+  }
+
+  .btn-lgout {
+    color: white;
+    background-color: #f7931e;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 30px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .home-ham {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+  }
+}
+
+.text-decorate {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 821px) {
+  .flex-header {
+    background-color: #f8fafc;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-desktop {
+    display: flex;
+    align-items: center;
+  }
+  .menu-item {
+    font-size: 18px;
+    font-family: DM Sans;
+    margin-right: 15px;
+    color: #334155;
+  }
+  .ham-style {
+    display: none;
+  }
+  .logo-head-style {
+    color: #f7931e;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 10px;
+  }
+  .home-logo-cont {
+    display: flex;
+    align-items: center;
+  }
+  .home-logo {
+    height: 40px;
+  }
+  .logout-btn {
+    color: white;
+    background-color: #f7931e;
+    border: none;
+    width: 73px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

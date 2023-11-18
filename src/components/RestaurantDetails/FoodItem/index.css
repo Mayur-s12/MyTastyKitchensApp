@@ -1,0 +1,137 @@
+.flex-food-list {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.img-food {
+  height: 110px;
+  width: 170px;
+  border-radius: 15px;
+}
+
+.food-text-div {
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.food-name {
+  font-family: DM Sans;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.cost-amount {
+  font-family: DM Sans;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.rating-name {
+  font-family: DM Sans;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.add-button {
+  background-color: transparent;
+  border: 2px solid #f7931e;
+  color: #f7931e;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 25px;
+  width: 50px;
+}
+
+.flex-btn-product {
+  display: flex;
+}
+
+.btn {
+  background: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 821px) {
+  .flex-food-list {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+  }
+
+  .img-food {
+    height: 130px;
+    width: 230px;
+    border-radius: 15px;
+  }
+
+  .food-text-div {
+    width: 200px;
+    height: 130px;
+    padding-left: 20px;
+  }
+
+  .food-name {
+    font-family: DM Sans;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+  }
+
+  .cost-amount {
+    font-family: DM Sans;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .rating-name {
+    font-family: DM Sans;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
